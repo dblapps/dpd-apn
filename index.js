@@ -39,13 +39,13 @@ function dpdapn(instanceName){
             }
         );
         dpdapn.feedback[instanceName].on("feedback", function(devices) {
-*/
 //console.log(devices);
 //dpd.devices.get(function(result,error) {
 //  console.log(result);
 //});
         });
     }
+*/
 }
 
 util.inherits(dpdapn, Resource);
